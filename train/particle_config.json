@@ -1,0 +1,13 @@
+{
+    "num_episodes": 10000,
+    "buffer_size": 100000,
+    "hidden_dim": 128,
+    "episode_length": 25,
+    "actor_lr": 0.01,
+    "critic_lr": 0.01,
+    "gamma": 0.95,
+    "tau": 0.01,
+    "batch_size": 1024,
+    "update_interval": 100,
+    "minimal_size": 4000
+}
